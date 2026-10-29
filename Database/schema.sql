@@ -100,7 +100,7 @@ CREATE TABLE equipment_rentals (
 	quantity INT NOT NULL CHECK (quantity > 0),
 	rental_rate_snapshot DECIMAL(10,2) NOT NULL,
 	total_amount DECIMAL(10,2) NOT NULL CHECK (total_amount >= 0),
-	status NVARCHAR(20) DEFAULT 'Active'
+	status NVARCHAR(20) DEFAULT 'Active'，
 	CONSTRAINT fk_rentals_member FOREIGN KEY (member_id) REFERENCES members(member_id),
 	CONSTRAINT fk_rentals_equipment FOREIGN KEY (equipment_id) REFERENCES equipment(equipment_id)
 );
