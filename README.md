@@ -138,7 +138,3 @@ npm start
   * ลองสั่ง `npm install --legacy-peer-deps`
 
 ---
-
-## 👤 ผู้พัฒนา (Developer)
-
-* **GitHub:** [@pgmdev2004-ui](https://github.com/pgmdev2004-ui)
